@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "possessedgrin",
+  "version": "${version}",
+  "name": "Requiem: Possessed Grin",
+  "description": "Possessed mobs get demonic powers: levitation, telekinesis, telepathy, a 180-degree head turn, green bile, poltergeist fury, an icy presence, a demon's voice, unholy strength and a spider-walk. Possess the Warden, Wither and Ender Dragon with their real attacks. Every possessed mob gets glowing white eyes and a malicious grin, and even passive mobs can fight.",
+  "authors": [
+    "YourName"
+  ],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.possessedgrin.PossessedGrinMod"
+    ],
+    "client": [
+      "com.possessedgrin.client.PossessedGrinClient"
+    ],
+    "requiem:plugin": [
+      "com.possessedgrin.PossessedGrinPlugin"
+    ]
+  },
+  "mixins": [
+    "possessedgrin.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.19.2",
+    "requiem": "*"
+  },
+  "suggests": {
+    "pandemonium": "*"
+  }
+}
